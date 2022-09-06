@@ -8,6 +8,7 @@ Console.Write("Введите элементы(через пробел): ");
 int[] massiv = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
  
+
 for (int i = 0; i < massiv.Length; i++)
     if (massiv[i] > 0)
         count++;
